@@ -3,6 +3,12 @@ body {
       width: 70%
 }
 
+title {
+       font-size: 4em;
+       font-family: 'Helvetica', 'Arial';
+       color: #333;
+}
+
 h1 {
     font-size: 4em;
     font-family: 'Arial';
