@@ -1,35 +1,48 @@
 html, body {
-    margin-top: 15;
+    /* margin-top: 15; */
     margin-right: auto;
     margin-left: auto;
+    /* height: 100%; */
+    background: rgb(34, 33, 33); 
+    background-image: url("20180807_150637.jpg");
     height: 100%;
-    background: rgb(34, 33, 33);
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 .name {
+    margin-top: 15;
     text-align: center;
     font-size: 45px;
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
-nav ul {
-    font-family: Arial, Helvetica, sans-serif;
+.tabs ul {
     padding: 0px;
     list-style: none;
     text-align: center;
 } 
 
-nav ul l1 {
+.tabs ul l1 {
     display: inline;
     padding: 20px;
 }
-
-
 .caption {
     text-align: left;
     padding-left: 50px;
-    padding-top: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 0px;
     font-size: 20px;
     font-family: sans-serif;
     color: white;
@@ -39,4 +52,18 @@ a {
     font-family: sans-serif;
     color: white;
     text-decoration: none;
+    text-align: center;
+
+}
+
+.links ul {
+    padding-top: 45px;
+    padding-right: 50px;
+    list-style: none;
+    text-align: right;
+    vertical-align: bottom;
+} 
+
+.links ul l1 {
+    padding: 10px;
 }
