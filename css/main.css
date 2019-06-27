@@ -3,18 +3,30 @@ html {
     margin-right: auto;
     margin-left: auto;
     /* height: 100%; */
-    background: rgb(34, 33, 33); 
-    background-image: url("20180807_150637.jpg");
-    height: 100%; /* You must set a specified height */
-    background-position: center; /* Center the image */
+    background: black; /*  rgb(34, 33, 33);  */
+    background-image: url("20181227_173423.jpg");
+    height: 100%;
+    background-position: center; 
     background-position-y: top;
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
     background-size: cover;
 }
 
 .about {
     background-image: url("20180810_124103.jpg");
 }
+
+.pics {
+    background-image: url("20190516_135320.jpg")
+}
+ 
+.pics a {
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
 
 .connect {
     background-image: url("20190321_193102.jpg");
@@ -41,7 +53,7 @@ html {
 .abtinfo h3 {
     text-align: left;
     padding-left: 50px;
-    font-size: 27px;
+    font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
@@ -53,12 +65,13 @@ h5 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
 }
-h4 {
+li {
     text-align: left;
-    padding-left: 300px;
-    padding-top: 0px;
-    font-size: 20px;
-    font-family: sans-serif;
+    padding-left: 350px;
+    padding-right: 120px;
+    padding-top: 5px;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 
@@ -67,7 +80,7 @@ h3 {
     padding-left: 50px;
     padding-top: 0px;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
 
@@ -87,7 +100,7 @@ h6 {
     padding-top: 0px;
     font-size: 20px;
     font-family: sans-serif;
-    color: rgb(11, 38, 95);
+    color: white;
 }
 
 .links ul {
@@ -107,3 +120,20 @@ h6 {
     color: rgb(11, 38, 95);
 }
 
+.column {
+    float: left;
+    
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 65%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
